@@ -4,9 +4,12 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+import Countdown from "react-countdown";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
+
+const Completionist = () => "";
 
 export const StyledButton = styled.button`
   padding: 10px;
@@ -18,9 +21,6 @@ export const StyledButton = styled.button`
   color: var(--secondary-text);
   width: 100px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -43,14 +43,6 @@ export const StyledRoundButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
-  -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
-  :active {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-  }
 `;
 
 export const ResponsiveWrapper = styled.div`
@@ -66,19 +58,16 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 200px;
+  width: 100px;
   @media (min-width: 767px) {
-    width: 300px;
+    width: 200px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
 `;
 
 export const StyledImg = styled.img`
-  box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
-  border: 4px dashed var(--secondary);
-  background-color: var(--accent);
-  border-radius: 100%;
+  border: none;
   width: 200px;
   @media (min-width: 900px) {
     width: 250px;
@@ -99,7 +88,9 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
+  const [feedback, setFeedback] = useState(
+    `Click BUY to get your Playing Card.`
+  );
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -118,6 +109,7 @@ function App() {
     MARKETPLACE: "",
     MARKETPLACE_LINK: "",
     SHOW_BACKGROUND: false,
+    LAUNCH_DATE: "",
   });
 
   const claimNFTs = () => {
@@ -145,7 +137,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit oasis.cash to view it!`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -198,14 +190,17 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+        style={{
+          padding: 24,
+          backgroundColor: "var(--primary)",
+          backgroundPosition: "unset",
+        }}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/preview.png" : null}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            <StyledImg alt={"example"} src={"/config/images/preview.gif"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -216,10 +211,47 @@ function App() {
               backgroundColor: "var(--accent)",
               padding: 24,
               borderRadius: 24,
-              border: "4px dashed var(--secondary)",
+              border: "none",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
+            <s.TextDescription
+              style={{
+                textAlign: "center",
+                color: "var(--primary-text)",
+                paddingBottom: "1em",
+                maxWidth: "450px",
+              }}
+            >
+              <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+              <p
+                style={{
+                  marginTop: "1em",
+                }}
+              >
+                Read about our Vision, Roadmap and Games: <br />
+                <StyledLink
+                  target={"_blank"}
+                  href="https://www.rainbowkingdoms.cash/"
+                >
+                  Rainbow Kingdoms Website
+                </StyledLink>
+              </p>
+
+              <p
+                style={{
+                  marginTop: "1em",
+                }}
+              >
+                Check out our preview Cards: <br />
+                <StyledLink
+                  target={"_blank"}
+                  href="https://www.rainbowkingdoms.cash/preview"
+                >
+                  Preview
+                </StyledLink>
+              </p>
+            </s.TextDescription>
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -255,7 +287,13 @@ function App() {
                 </s.TextDescription>
                 <s.SpacerSmall />
                 <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
-                  {CONFIG.MARKETPLACE}
+                  <img
+                    style={{
+                      width: "192px",
+                    }}
+                    src="/config/images/oasis_logo.svg"
+                    alt="Oasis"
+                  />
                 </StyledLink>
               </>
             ) : (
@@ -310,72 +348,89 @@ function App() {
                   </s.Container>
                 ) : (
                   <>
-                    <s.TextDescription
-                      style={{
-                        textAlign: "center",
-                        color: "var(--accent-text)",
-                      }}
-                    >
-                      {feedback}
-                    </s.TextDescription>
-                    <s.SpacerMedium />
-                    <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                      <StyledRoundButton
-                        style={{ lineHeight: 0.4 }}
-                        disabled={claimingNft ? 1 : 0}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          decrementMintAmount();
-                        }}
-                      >
-                        -
-                      </StyledRoundButton>
-                      <s.SpacerMedium />
+                    {new Date() > new Date(CONFIG.LAUNCH_DATE) ? (
                       <s.TextDescription
                         style={{
                           textAlign: "center",
                           color: "var(--accent-text)",
                         }}
                       >
-                        {mintAmount}
+                        {feedback}
                       </s.TextDescription>
-                      <s.SpacerMedium />
-                      <StyledRoundButton
-                        disabled={claimingNft ? 1 : 0}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          incrementMintAmount();
-                        }}
-                      >
-                        +
-                      </StyledRoundButton>
-                    </s.Container>
+                    ) : null}
+                    <s.SpacerMedium />
+                    {new Date() > new Date(CONFIG.LAUNCH_DATE) ? (
+                      <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                        <StyledRoundButton
+                          style={{ lineHeight: 0.4 }}
+                          disabled={claimingNft ? 1 : 0}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            decrementMintAmount();
+                          }}
+                        >
+                          -
+                        </StyledRoundButton>
+                        <s.SpacerMedium />
+                        <s.TextDescription
+                          style={{
+                            textAlign: "center",
+                            color: "var(--accent-text)",
+                          }}
+                        >
+                          {mintAmount}
+                        </s.TextDescription>
+                        <s.SpacerMedium />
+                        <StyledRoundButton
+                          disabled={claimingNft ? 1 : 0}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            incrementMintAmount();
+                          }}
+                        >
+                          +
+                        </StyledRoundButton>
+                      </s.Container>
+                    ) : null}
                     <s.SpacerSmall />
-                    <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                      <StyledButton
-                        disabled={claimingNft ? 1 : 0}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          claimNFTs();
-                          getData();
+                    {new Date() > new Date(CONFIG.LAUNCH_DATE) ? (
+                      <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                        <StyledButton
+                          disabled={claimingNft ? 1 : 0}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            claimNFTs();
+                            getData();
+                          }}
+                        >
+                          {claimingNft ? "BUSY" : "BUY"}
+                        </StyledButton>
+                      </s.Container>
+                    ) : (
+                      <s.TextDescription
+                        style={{
+                          textAlign: "center",
+                          color: "var(--accent-text)",
                         }}
                       >
-                        {claimingNft ? "BUSY" : "BUY"}
-                      </StyledButton>
-                    </s.Container>
+                        Minting begins{" "}
+                        {new Date(CONFIG.LAUNCH_DATE).toUTCString()}.
+                      </s.TextDescription>
+                    )}
                   </>
                 )}
               </>
             )}
+            <div className="countdown">
+              <Countdown date={new Date(CONFIG.LAUNCH_DATE)}>
+                <Completionist />
+              </Countdown>
+            </div>
             <s.SpacerMedium />
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg
-              alt={"example"}
-              src={"/config/images/example.gif"}
-              style={{ transform: "scaleX(-1)" }}
-            />
+            <StyledImg alt={"example"} src={"/config/images/preview.gif"} />
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
@@ -398,7 +453,7 @@ function App() {
             }}
           >
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
+            successfully mint your Card. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
         </s.Container>
