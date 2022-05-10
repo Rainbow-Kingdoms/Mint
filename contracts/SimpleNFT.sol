@@ -1390,7 +1390,7 @@ contract SimpleNFT is ERC721A, Ownable {
     string baseURI;
     string public baseExtension = ".json";
     uint256 public cost = 0.05 ether;
-    uint256 public discountCost = 0.045 ether;
+    uint256 public discountCost = 0.05 ether;
     uint256 public maxSupply = 10000;
     uint256 public maxMintAmount = 200;
     bool public paused = true;
@@ -1401,7 +1401,7 @@ contract SimpleNFT is ERC721A, Ownable {
     mapping(address => uint8) public discountList;
 
     constructor(string memory _initNotRevealedUri)
-        ERC721A("Rainbow Kingdoms - Dudes", "RNBWD")
+        ERC721A("Rainbow Kingdoms Cards", "RNBWC")
     {
         setNotRevealedURI(_initNotRevealedUri);
     }
