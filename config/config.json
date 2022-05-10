@@ -2,7 +2,7 @@
   "CONTRACT_ADDRESS": "0x48973dbAC0d46B939CD12A7250eFBA965e8a8cf2",
   "SCAN_LINK": "https://www.smartscan.cash/address/0x48973dbAC0d46B939CD12A7250eFBA965e8a8cf2",
   "NETWORK": {
-    "NAME": "SmartBCH",
+    "NAME": "SmartBCH Mainnet",
     "SYMBOL": "BCH",
     "ID": 10000
   },
