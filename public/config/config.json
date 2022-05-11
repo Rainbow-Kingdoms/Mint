@@ -1,19 +1,19 @@
 {
-  "CONTRACT_ADDRESS": "0x48973dbAC0d46B939CD12A7250eFBA965e8a8cf2",
-  "SCAN_LINK": "https://www.smartscan.cash/address/0x48973dbAC0d46B939CD12A7250eFBA965e8a8cf2",
+  "CONTRACT_ADDRESS": "0xdcCc1cA41e5A4F1Eb3A2757F3173a1b488387565",
+  "SCAN_LINK": "https://www.smartscan.cash/address/0xdcCc1cA41e5A4F1Eb3A2757F3173a1b488387565",
   "NETWORK": {
     "NAME": "SmartBCH",
     "SYMBOL": "BCH",
     "ID": 10000
   },
-  "NFT_NAME": "Rainbow Kingdoms Card (Rainbow Dudes)",
+  "NFT_NAME": "Rainbow Kingdoms Cards",
   "SYMBOL": "Rainbow Kingdoms Card",
   "MAX_SUPPLY": 10000,
   "WEI_COST": 50000000000000000,
   "DISPLAY_COST": 0.05,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Oasis",
-  "MARKETPLACE_LINK": "https://oasis.cash/collection/0x48973dbAC0d46B939CD12A7250eFBA965e8a8cf2",
+  "MARKETPLACE_LINK": "https://oasis.cash/collection/0xdcCc1cA41e5A4F1Eb3A2757F3173a1b488387565",
   "SHOW_BACKGROUND": true,
   "LAUNCH_DATE": "2022-04-29T17:00:00.000-08:00"
 }
