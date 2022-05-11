@@ -89,7 +89,7 @@ function App() {
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState(
-    `Click BUY to get your Playing Card.`
+    `Click BUY to get your Rainbow Kingdoms Cards.`
   );
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
