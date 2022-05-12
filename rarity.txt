@@ -1,0 +1,1141 @@
+yarn run v1.22.5
+$ node utils/rarity.js
+Trait type: Inner Backgrounds
+{
+  trait: 'BCH Background',
+  weight: '20',
+  occurrence: '405 in 10000 editions (4.05 %)'
+}
+{
+  trait: 'Black White Waves',
+  weight: '30',
+  occurrence: '659 in 10000 editions (6.59 %)'
+}
+{
+  trait: 'Dark Night',
+  weight: '30',
+  occurrence: '661 in 10000 editions (6.61 %)'
+}
+{
+  trait: 'King Background',
+  weight: '30',
+  occurrence: '557 in 10000 editions (5.57 %)'
+}
+{
+  trait: 'Lime Flowers',
+  weight: '30',
+  occurrence: '681 in 10000 editions (6.81 %)'
+}
+{
+  trait: 'Matrix',
+  weight: '30',
+  occurrence: '660 in 10000 editions (6.60 %)'
+}
+{
+  trait: 'Pink Squares',
+  weight: '30',
+  occurrence: '678 in 10000 editions (6.78 %)'
+}
+{
+  trait: 'Police Lights',
+  weight: '30',
+  occurrence: '636 in 10000 editions (6.36 %)'
+}
+{
+  trait: 'Prince Background',
+  weight: '30',
+  occurrence: '609 in 10000 editions (6.09 %)'
+}
+{
+  trait: 'Princess Background',
+  weight: '30',
+  occurrence: '653 in 10000 editions (6.53 %)'
+}
+{
+  trait: 'Purple Bubbles',
+  weight: '30',
+  occurrence: '614 in 10000 editions (6.14 %)'
+}
+{
+  trait: 'Purple Wallpaper',
+  weight: '30',
+  occurrence: '656 in 10000 editions (6.56 %)'
+}
+{
+  trait: 'Queen Background',
+  weight: '30',
+  occurrence: '616 in 10000 editions (6.16 %)'
+}
+{
+  trait: 'Red Padel',
+  weight: '30',
+  occurrence: '654 in 10000 editions (6.54 %)'
+}
+{
+  trait: 'Turquoise Splatter Cross',
+  weight: '30',
+  occurrence: '604 in 10000 editions (6.04 %)'
+}
+{
+  trait: 'Yellow Wood Wall',
+  weight: '30',
+  occurrence: '657 in 10000 editions (6.57 %)'
+}
+
+Trait type: Card Styles
+{
+  trait: 'BCH Card',
+  weight: '10',
+  occurrence: '163 in 10000 editions (1.63 %)'
+}
+{
+  trait: 'Black Orange',
+  weight: '30',
+  occurrence: '543 in 10000 editions (5.43 %)'
+}
+{
+  trait: 'Glowing Black Green Card',
+  weight: '30',
+  occurrence: '492 in 10000 editions (4.92 %)'
+}
+{
+  trait: 'Glowing Black Orange Card',
+  weight: '30',
+  occurrence: '539 in 10000 editions (5.39 %)'
+}
+{
+  trait: 'Glowing Black Red Card',
+  weight: '30',
+  occurrence: '478 in 10000 editions (4.78 %)'
+}
+{
+  trait: 'Glowing Blue Black Card',
+  weight: '30',
+  occurrence: '504 in 10000 editions (5.04 %)'
+}
+{
+  trait: 'Glowing Lime Black Card',
+  weight: '30',
+  occurrence: '478 in 10000 editions (4.78 %)'
+}
+{
+  trait: 'Glowing Pink Black Card',
+  weight: '30',
+  occurrence: '493 in 10000 editions (4.93 %)'
+}
+{
+  trait: 'Glowing Pink Purple Card',
+  weight: '30',
+  occurrence: '477 in 10000 editions (4.77 %)'
+}
+{
+  trait: 'Glowing Purple Card',
+  weight: '30',
+  occurrence: '500 in 10000 editions (5.00 %)'
+}
+{
+  trait: 'Glowing Turquoise Black Card',
+  weight: '30',
+  occurrence: '516 in 10000 editions (5.16 %)'
+}
+{
+  trait: 'Glowing Yellow Black Card',
+  weight: '30',
+  occurrence: '512 in 10000 editions (5.12 %)'
+}
+{
+  trait: 'Kings Card',
+  weight: '30',
+  occurrence: '492 in 10000 editions (4.92 %)'
+}
+{
+  trait: 'Orange Black Card',
+  weight: '30',
+  occurrence: '510 in 10000 editions (5.10 %)'
+}
+{
+  trait: 'Prince Card',
+  weight: '30',
+  occurrence: '530 in 10000 editions (5.30 %)'
+}
+{
+  trait: 'Princess Card',
+  weight: '30',
+  occurrence: '509 in 10000 editions (5.09 %)'
+}
+{
+  trait: 'Queens Card',
+  weight: '30',
+  occurrence: '529 in 10000 editions (5.29 %)'
+}
+{
+  trait: 'Red Black Card',
+  weight: '30',
+  occurrence: '531 in 10000 editions (5.31 %)'
+}
+{
+  trait: 'Red Grey Card',
+  weight: '30',
+  occurrence: '512 in 10000 editions (5.12 %)'
+}
+{
+  trait: 'Red Padel Card',
+  weight: '30',
+  occurrence: '520 in 10000 editions (5.20 %)'
+}
+{
+  trait: 'The RNBW Card',
+  weight: '10',
+  occurrence: '172 in 10000 editions (1.72 %)'
+}
+
+Trait type: Symbol Skills
+{
+  trait: 'ANNIHILATION',
+  weight: '30',
+  occurrence: '675 in 10000 editions (6.75 %)'
+}
+{
+  trait: 'BAILOUT FOR BANKS',
+  weight: '20',
+  occurrence: '446 in 10000 editions (4.46 %)'
+}
+{
+  trait: 'BERMUDA FRYING PAN',
+  weight: '30',
+  occurrence: '628 in 10000 editions (6.28 %)'
+}
+{
+  trait: 'B_ SLAP',
+  weight: '30',
+  occurrence: '606 in 10000 editions (6.06 %)'
+}
+{
+  trait: 'D.D.C DEVILS DEATH CIRCLE',
+  weight: '30',
+  occurrence: '641 in 10000 editions (6.41 %)'
+}
+{
+  trait: 'EHIPA SMASH',
+  weight: '30',
+  occurrence: '614 in 10000 editions (6.14 %)'
+}
+{
+  trait: 'HIPSTER VIOLENCE',
+  weight: '30',
+  occurrence: '615 in 10000 editions (6.15 %)'
+}
+{
+  trait: 'INJECTION SUPRISE',
+  weight: '30',
+  occurrence: '661 in 10000 editions (6.61 %)'
+}
+{
+  trait: 'L33T H4XX0R',
+  weight: '30',
+  occurrence: '642 in 10000 editions (6.42 %)'
+}
+{
+  trait: 'NAILED IT',
+  weight: '30',
+  occurrence: '693 in 10000 editions (6.93 %)'
+}
+{
+  trait: 'PROTECTED',
+  weight: '30',
+  occurrence: '616 in 10000 editions (6.16 %)'
+}
+{
+  trait: 'RAINBOW MAGIC',
+  weight: '30',
+  occurrence: '617 in 10000 editions (6.17 %)'
+}
+{
+  trait: 'THE KING SLAYER',
+  weight: '30',
+  occurrence: '672 in 10000 editions (6.72 %)'
+}
+{
+  trait: 'THE PYRAMID SMASH',
+  weight: '30',
+  occurrence: '618 in 10000 editions (6.18 %)'
+}
+{
+  trait: 'THE SHOOT OUT',
+  weight: '30',
+  occurrence: '653 in 10000 editions (6.53 %)'
+}
+{
+  trait: 'TOTAL ANARCHY',
+  weight: '30',
+  occurrence: '603 in 10000 editions (6.03 %)'
+}
+
+Trait type: Faces
+{
+  trait: 'BCH Face',
+  weight: '20',
+  occurrence: '420 in 10000 editions (4.20 %)'
+}
+{
+  trait: 'Blue Face',
+  weight: '30',
+  occurrence: '640 in 10000 editions (6.40 %)'
+}
+{
+  trait: 'Dark Purple Face',
+  weight: '30',
+  occurrence: '654 in 10000 editions (6.54 %)'
+}
+{
+  trait: 'Green Face',
+  weight: '30',
+  occurrence: '697 in 10000 editions (6.97 %)'
+}
+{
+  trait: 'Kings Face',
+  weight: '30',
+  occurrence: '635 in 10000 editions (6.35 %)'
+}
+{
+  trait: 'Lime Face',
+  weight: '30',
+  occurrence: '633 in 10000 editions (6.33 %)'
+}
+{
+  trait: 'Orange Face',
+  weight: '30',
+  occurrence: '641 in 10000 editions (6.41 %)'
+}
+{
+  trait: 'Pink Purple Face',
+  weight: '30',
+  occurrence: '628 in 10000 editions (6.28 %)'
+}
+{
+  trait: 'Prince Face',
+  weight: '30',
+  occurrence: '612 in 10000 editions (6.12 %)'
+}
+{
+  trait: 'Princess Face',
+  weight: '30',
+  occurrence: '651 in 10000 editions (6.51 %)'
+}
+{
+  trait: 'Purple Face',
+  weight: '30',
+  occurrence: '603 in 10000 editions (6.03 %)'
+}
+{
+  trait: 'Queens Face',
+  weight: '30',
+  occurrence: '623 in 10000 editions (6.23 %)'
+}
+{
+  trait: 'Red Face',
+  weight: '30',
+  occurrence: '628 in 10000 editions (6.28 %)'
+}
+{
+  trait: 'Red Padel Face',
+  weight: '30',
+  occurrence: '639 in 10000 editions (6.39 %)'
+}
+{
+  trait: 'Turquoise Face',
+  weight: '30',
+  occurrence: '646 in 10000 editions (6.46 %)'
+}
+{
+  trait: 'Yellow Face',
+  weight: '30',
+  occurrence: '650 in 10000 editions (6.50 %)'
+}
+
+Trait type: Face Addons
+{
+  trait: 'Blue Police Glasses',
+  weight: '30',
+  occurrence: '1677 in 10000 editions (16.77 %)'
+}
+{
+  trait: 'Green Glasses',
+  weight: '30',
+  occurrence: '1653 in 10000 editions (16.53 %)'
+}
+{
+  trait: 'Lime Chefs Mustache',
+  weight: '30',
+  occurrence: '1686 in 10000 editions (16.86 %)'
+}
+{
+  trait: 'Pink Purple Glasses And Bowtie',
+  weight: '30',
+  occurrence: '1591 in 10000 editions (15.91 %)'
+}
+{
+  trait: 'Purple Hipster Mustache',
+  weight: '30',
+  occurrence: '1695 in 10000 editions (16.95 %)'
+}
+{
+  trait: 'Purple Mustache',
+  weight: '30',
+  occurrence: '1698 in 10000 editions (16.98 %)'
+}
+
+Trait type: Hats
+{
+  trait: 'BCH Hat',
+  weight: '20',
+  occurrence: '438 in 10000 editions (4.38 %)'
+}
+{
+  trait: 'Black Green Chefs Hat',
+  weight: '30',
+  occurrence: '627 in 10000 editions (6.27 %)'
+}
+{
+  trait: 'Blue Police Hat',
+  weight: '30',
+  occurrence: '659 in 10000 editions (6.59 %)'
+}
+{
+  trait: 'Green Chefs Hat',
+  weight: '30',
+  occurrence: '621 in 10000 editions (6.21 %)'
+}
+{
+  trait: 'Green Snapback',
+  weight: '30',
+  occurrence: '620 in 10000 editions (6.20 %)'
+}
+{
+  trait: 'Kings Crown',
+  weight: '30',
+  occurrence: '672 in 10000 editions (6.72 %)'
+}
+{
+  trait: 'Pink Purple Hair',
+  weight: '30',
+  occurrence: '614 in 10000 editions (6.14 %)'
+}
+{
+  trait: 'Prince Crown',
+  weight: '30',
+  occurrence: '654 in 10000 editions (6.54 %)'
+}
+{
+  trait: 'Princess Crown',
+  weight: '30',
+  occurrence: '619 in 10000 editions (6.19 %)'
+}
+{
+  trait: 'Purple Hat',
+  weight: '30',
+  occurrence: '670 in 10000 editions (6.70 %)'
+}
+{
+  trait: 'Purple Hipster Beanie',
+  weight: '30',
+  occurrence: '649 in 10000 editions (6.49 %)'
+}
+{
+  trait: 'Queens Crown',
+  weight: '30',
+  occurrence: '637 in 10000 editions (6.37 %)'
+}
+{
+  trait: 'Red Mohawk',
+  weight: '30',
+  occurrence: '621 in 10000 editions (6.21 %)'
+}
+{
+  trait: 'SnapBack Padel Hat',
+  weight: '30',
+  occurrence: '631 in 10000 editions (6.31 %)'
+}
+{
+  trait: 'Turquoise Surgeon Hat',
+  weight: '30',
+  occurrence: '634 in 10000 editions (6.34 %)'
+}
+{
+  trait: 'Yellow Construction Hat',
+  weight: '30',
+  occurrence: '634 in 10000 editions (6.34 %)'
+}
+
+Trait type: Left Skills
+{
+  trait: '247 JavaScript',
+  weight: '30',
+  occurrence: '634 in 10000 editions (6.34 %)'
+}
+{
+  trait: 'Bandeja',
+  weight: '30',
+  occurrence: '615 in 10000 editions (6.15 %)'
+}
+{
+  trait: 'Deadly Rose',
+  weight: '30',
+  occurrence: '602 in 10000 editions (6.02 %)'
+}
+{
+  trait: 'Death Pinch',
+  weight: '30',
+  occurrence: '661 in 10000 editions (6.61 %)'
+}
+{
+  trait: 'Holy Grenade',
+  weight: '30',
+  occurrence: '628 in 10000 editions (6.28 %)'
+}
+{
+  trait: 'Knock Out',
+  weight: '30',
+  occurrence: '622 in 10000 editions (6.22 %)'
+}
+{
+  trait: 'Left eye stabbing',
+  weight: '30',
+  occurrence: '685 in 10000 editions (6.85 %)'
+}
+{
+  trait: 'Nakamoto',
+  weight: '20',
+  occurrence: '405 in 10000 editions (4.05 %)'
+}
+{
+  trait: 'Nunchucks Arrest',
+  weight: '30',
+  occurrence: '624 in 10000 editions (6.24 %)'
+}
+{
+  trait: 'Piece Maker',
+  weight: '30',
+  occurrence: '619 in 10000 editions (6.19 %)'
+}
+{
+  trait: 'Ruler Slap',
+  weight: '30',
+  occurrence: '652 in 10000 editions (6.52 %)'
+}
+{
+  trait: 'Spatula 360',
+  weight: '30',
+  occurrence: '644 in 10000 editions (6.44 %)'
+}
+{
+  trait: 'Twisted Bowtie',
+  weight: '30',
+  occurrence: '668 in 10000 editions (6.68 %)'
+}
+{
+  trait: 'Voice Of An Angel',
+  weight: '30',
+  occurrence: '627 in 10000 editions (6.27 %)'
+}
+{
+  trait: 'WhipWhop',
+  weight: '30',
+  occurrence: '660 in 10000 editions (6.60 %)'
+}
+{
+  trait: 'You Shall Not Pass',
+  weight: '30',
+  occurrence: '654 in 10000 editions (6.54 %)'
+}
+
+Trait type: Right Skills
+{
+  trait: '10 Blade Stab',
+  weight: '30',
+  occurrence: '704 in 10000 editions (7.04 %)'
+}
+{
+  trait: 'Baton Face Slap',
+  weight: '30',
+  occurrence: '637 in 10000 editions (6.37 %)'
+}
+{
+  trait: 'Expensive Choker',
+  weight: '30',
+  occurrence: '618 in 10000 editions (6.18 %)'
+}
+{
+  trait: 'Fender Slap',
+  weight: '30',
+  occurrence: '642 in 10000 editions (6.42 %)'
+}
+{
+  trait: 'Hammer Slammer',
+  weight: '30',
+  occurrence: '621 in 10000 editions (6.21 %)'
+}
+{
+  trait: 'Head Chopper',
+  weight: '30',
+  occurrence: '612 in 10000 editions (6.12 %)'
+}
+{
+  trait: 'Kingdom Protector',
+  weight: '30',
+  occurrence: '681 in 10000 editions (6.81 %)'
+}
+{
+  trait: 'Mighty King Scepter',
+  weight: '30',
+  occurrence: '590 in 10000 editions (5.90 %)'
+}
+{
+  trait: 'Nightmare Pipe',
+  weight: '30',
+  occurrence: '607 in 10000 editions (6.07 %)'
+}
+{
+  trait: 'Onion Slicer',
+  weight: '30',
+  occurrence: '659 in 10000 editions (6.59 %)'
+}
+{
+  trait: 'Pencil Cut',
+  weight: '30',
+  occurrence: '627 in 10000 editions (6.27 %)'
+}
+{
+  trait: 'Right Paper Jab',
+  weight: '30',
+  occurrence: '640 in 10000 editions (6.40 %)'
+}
+{
+  trait: 'Satoshi',
+  weight: '20',
+  occurrence: '421 in 10000 editions (4.21 %)'
+}
+{
+  trait: 'Smart Contract Bug Hunter',
+  weight: '30',
+  occurrence: '620 in 10000 editions (6.20 %)'
+}
+{
+  trait: 'Toxic Paint',
+  weight: '30',
+  occurrence: '644 in 10000 editions (6.44 %)'
+}
+{
+  trait: 'Vibora',
+  weight: '30',
+  occurrence: '677 in 10000 editions (6.77 %)'
+}
+
+Trait type: IV
+{
+  trait: '100',
+  weight: '30',
+  occurrence: '83 in 10000 editions (0.83 %)'
+}
+{
+  trait: '101',
+  weight: '25',
+  occurrence: '60 in 10000 editions (0.60 %)'
+}
+{
+  trait: '102',
+  weight: '25',
+  occurrence: '65 in 10000 editions (0.65 %)'
+}
+{
+  trait: '103',
+  weight: '25',
+  occurrence: '58 in 10000 editions (0.58 %)'
+}
+{
+  trait: '104',
+  weight: '25',
+  occurrence: '66 in 10000 editions (0.66 %)'
+}
+{
+  trait: '105',
+  weight: '25',
+  occurrence: '62 in 10000 editions (0.62 %)'
+}
+{
+  trait: '106',
+  weight: '20',
+  occurrence: '61 in 10000 editions (0.61 %)'
+}
+{
+  trait: '107',
+  weight: '20',
+  occurrence: '54 in 10000 editions (0.54 %)'
+}
+{
+  trait: '108',
+  weight: '20',
+  occurrence: '41 in 10000 editions (0.41 %)'
+}
+{
+  trait: '109',
+  weight: '20',
+  occurrence: '40 in 10000 editions (0.40 %)'
+}
+{
+  trait: '110',
+  weight: '20',
+  occurrence: '53 in 10000 editions (0.53 %)'
+}
+{
+  trait: '111',
+  weight: '15',
+  occurrence: '35 in 10000 editions (0.35 %)'
+}
+{
+  trait: '112',
+  weight: '15',
+  occurrence: '42 in 10000 editions (0.42 %)'
+}
+{
+  trait: '113',
+  weight: '15',
+  occurrence: '33 in 10000 editions (0.33 %)'
+}
+{
+  trait: '114',
+  weight: '15',
+  occurrence: '31 in 10000 editions (0.31 %)'
+}
+{
+  trait: '115',
+  weight: '15',
+  occurrence: '46 in 10000 editions (0.46 %)'
+}
+{
+  trait: '116',
+  weight: '10',
+  occurrence: '25 in 10000 editions (0.25 %)'
+}
+{
+  trait: '117',
+  weight: '10',
+  occurrence: '23 in 10000 editions (0.23 %)'
+}
+{
+  trait: '118',
+  weight: '10',
+  occurrence: '33 in 10000 editions (0.33 %)'
+}
+{
+  trait: '119',
+  weight: '10',
+  occurrence: '32 in 10000 editions (0.32 %)'
+}
+{
+  trait: '120',
+  weight: '10',
+  occurrence: '27 in 10000 editions (0.27 %)'
+}
+{
+  trait: '20',
+  weight: '50',
+  occurrence: '142 in 10000 editions (1.42 %)'
+}
+{
+  trait: '21',
+  weight: '50',
+  occurrence: '151 in 10000 editions (1.51 %)'
+}
+{
+  trait: '22',
+  weight: '50',
+  occurrence: '150 in 10000 editions (1.50 %)'
+}
+{
+  trait: '23',
+  weight: '50',
+  occurrence: '122 in 10000 editions (1.22 %)'
+}
+{
+  trait: '24',
+  weight: '50',
+  occurrence: '130 in 10000 editions (1.30 %)'
+}
+{
+  trait: '25',
+  weight: '50',
+  occurrence: '127 in 10000 editions (1.27 %)'
+}
+{
+  trait: '26',
+  weight: '50',
+  occurrence: '118 in 10000 editions (1.18 %)'
+}
+{
+  trait: '27',
+  weight: '50',
+  occurrence: '132 in 10000 editions (1.32 %)'
+}
+{
+  trait: '28',
+  weight: '50',
+  occurrence: '148 in 10000 editions (1.48 %)'
+}
+{
+  trait: '29',
+  weight: '50',
+  occurrence: '141 in 10000 editions (1.41 %)'
+}
+{
+  trait: '30',
+  weight: '50',
+  occurrence: '107 in 10000 editions (1.07 %)'
+}
+{
+  trait: '31',
+  weight: '50',
+  occurrence: '123 in 10000 editions (1.23 %)'
+}
+{
+  trait: '32',
+  weight: '50',
+  occurrence: '121 in 10000 editions (1.21 %)'
+}
+{
+  trait: '33',
+  weight: '50',
+  occurrence: '126 in 10000 editions (1.26 %)'
+}
+{
+  trait: '34',
+  weight: '50',
+  occurrence: '133 in 10000 editions (1.33 %)'
+}
+{
+  trait: '35',
+  weight: '50',
+  occurrence: '132 in 10000 editions (1.32 %)'
+}
+{
+  trait: '36',
+  weight: '50',
+  occurrence: '147 in 10000 editions (1.47 %)'
+}
+{
+  trait: '37',
+  weight: '50',
+  occurrence: '119 in 10000 editions (1.19 %)'
+}
+{
+  trait: '38',
+  weight: '50',
+  occurrence: '147 in 10000 editions (1.47 %)'
+}
+{
+  trait: '39',
+  weight: '50',
+  occurrence: '117 in 10000 editions (1.17 %)'
+}
+{
+  trait: '40',
+  weight: '50',
+  occurrence: '112 in 10000 editions (1.12 %)'
+}
+{
+  trait: '41',
+  weight: '50',
+  occurrence: '123 in 10000 editions (1.23 %)'
+}
+{
+  trait: '42',
+  weight: '50',
+  occurrence: '127 in 10000 editions (1.27 %)'
+}
+{
+  trait: '43',
+  weight: '50',
+  occurrence: '131 in 10000 editions (1.31 %)'
+}
+{
+  trait: '44',
+  weight: '50',
+  occurrence: '139 in 10000 editions (1.39 %)'
+}
+{
+  trait: '45',
+  weight: '50',
+  occurrence: '130 in 10000 editions (1.30 %)'
+}
+{
+  trait: '46',
+  weight: '50',
+  occurrence: '155 in 10000 editions (1.55 %)'
+}
+{
+  trait: '47',
+  weight: '50',
+  occurrence: '128 in 10000 editions (1.28 %)'
+}
+{
+  trait: '48',
+  weight: '50',
+  occurrence: '124 in 10000 editions (1.24 %)'
+}
+{
+  trait: '49',
+  weight: '50',
+  occurrence: '120 in 10000 editions (1.20 %)'
+}
+{
+  trait: '50',
+  weight: '50',
+  occurrence: '130 in 10000 editions (1.30 %)'
+}
+{
+  trait: '51',
+  weight: '45',
+  occurrence: '124 in 10000 editions (1.24 %)'
+}
+{
+  trait: '52',
+  weight: '45',
+  occurrence: '107 in 10000 editions (1.07 %)'
+}
+{
+  trait: '53',
+  weight: '45',
+  occurrence: '99 in 10000 editions (0.99 %)'
+}
+{
+  trait: '54',
+  weight: '45',
+  occurrence: '119 in 10000 editions (1.19 %)'
+}
+{
+  trait: '55',
+  weight: '45',
+  occurrence: '133 in 10000 editions (1.33 %)'
+}
+{
+  trait: '56',
+  weight: '45',
+  occurrence: '114 in 10000 editions (1.14 %)'
+}
+{
+  trait: '57',
+  weight: '45',
+  occurrence: '117 in 10000 editions (1.17 %)'
+}
+{
+  trait: '58',
+  weight: '45',
+  occurrence: '130 in 10000 editions (1.30 %)'
+}
+{
+  trait: '59',
+  weight: '45',
+  occurrence: '95 in 10000 editions (0.95 %)'
+}
+{
+  trait: '60',
+  weight: '45',
+  occurrence: '142 in 10000 editions (1.42 %)'
+}
+{
+  trait: '61',
+  weight: '45',
+  occurrence: '104 in 10000 editions (1.04 %)'
+}
+{
+  trait: '62',
+  weight: '45',
+  occurrence: '133 in 10000 editions (1.33 %)'
+}
+{
+  trait: '63',
+  weight: '45',
+  occurrence: '114 in 10000 editions (1.14 %)'
+}
+{
+  trait: '64',
+  weight: '45',
+  occurrence: '111 in 10000 editions (1.11 %)'
+}
+{
+  trait: '65',
+  weight: '45',
+  occurrence: '108 in 10000 editions (1.08 %)'
+}
+{
+  trait: '66',
+  weight: '45',
+  occurrence: '115 in 10000 editions (1.15 %)'
+}
+{
+  trait: '67',
+  weight: '45',
+  occurrence: '118 in 10000 editions (1.18 %)'
+}
+{
+  trait: '68',
+  weight: '45',
+  occurrence: '112 in 10000 editions (1.12 %)'
+}
+{
+  trait: '69',
+  weight: '45',
+  occurrence: '129 in 10000 editions (1.29 %)'
+}
+{
+  trait: '70',
+  weight: '45',
+  occurrence: '119 in 10000 editions (1.19 %)'
+}
+{
+  trait: '71',
+  weight: '40',
+  occurrence: '96 in 10000 editions (0.96 %)'
+}
+{
+  trait: '72',
+  weight: '40',
+  occurrence: '85 in 10000 editions (0.85 %)'
+}
+{
+  trait: '73',
+  weight: '40',
+  occurrence: '93 in 10000 editions (0.93 %)'
+}
+{
+  trait: '74',
+  weight: '40',
+  occurrence: '103 in 10000 editions (1.03 %)'
+}
+{
+  trait: '75',
+  weight: '40',
+  occurrence: '98 in 10000 editions (0.98 %)'
+}
+{
+  trait: '76',
+  weight: '40',
+  occurrence: '118 in 10000 editions (1.18 %)'
+}
+{
+  trait: '77',
+  weight: '40',
+  occurrence: '103 in 10000 editions (1.03 %)'
+}
+{
+  trait: '78',
+  weight: '40',
+  occurrence: '119 in 10000 editions (1.19 %)'
+}
+{
+  trait: '79',
+  weight: '40',
+  occurrence: '97 in 10000 editions (0.97 %)'
+}
+{
+  trait: '80',
+  weight: '40',
+  occurrence: '95 in 10000 editions (0.95 %)'
+}
+{
+  trait: '81',
+  weight: '35',
+  occurrence: '107 in 10000 editions (1.07 %)'
+}
+{
+  trait: '82',
+  weight: '35',
+  occurrence: '88 in 10000 editions (0.88 %)'
+}
+{
+  trait: '83',
+  weight: '35',
+  occurrence: '85 in 10000 editions (0.85 %)'
+}
+{
+  trait: '84',
+  weight: '35',
+  occurrence: '89 in 10000 editions (0.89 %)'
+}
+{
+  trait: '85',
+  weight: '35',
+  occurrence: '105 in 10000 editions (1.05 %)'
+}
+{
+  trait: '86',
+  weight: '35',
+  occurrence: '92 in 10000 editions (0.92 %)'
+}
+{
+  trait: '87',
+  weight: '35',
+  occurrence: '102 in 10000 editions (1.02 %)'
+}
+{
+  trait: '88',
+  weight: '35',
+  occurrence: '81 in 10000 editions (0.81 %)'
+}
+{
+  trait: '89',
+  weight: '35',
+  occurrence: '91 in 10000 editions (0.91 %)'
+}
+{
+  trait: '90',
+  weight: '35',
+  occurrence: '83 in 10000 editions (0.83 %)'
+}
+{
+  trait: '91',
+  weight: '30',
+  occurrence: '65 in 10000 editions (0.65 %)'
+}
+{
+  trait: '92',
+  weight: '30',
+  occurrence: '88 in 10000 editions (0.88 %)'
+}
+{
+  trait: '93',
+  weight: '30',
+  occurrence: '89 in 10000 editions (0.89 %)'
+}
+{
+  trait: '94',
+  weight: '30',
+  occurrence: '69 in 10000 editions (0.69 %)'
+}
+{
+  trait: '95',
+  weight: '30',
+  occurrence: '87 in 10000 editions (0.87 %)'
+}
+{
+  trait: '96',
+  weight: '30',
+  occurrence: '63 in 10000 editions (0.63 %)'
+}
+{
+  trait: '97',
+  weight: '30',
+  occurrence: '73 in 10000 editions (0.73 %)'
+}
+{
+  trait: '98',
+  weight: '30',
+  occurrence: '85 in 10000 editions (0.85 %)'
+}
+{
+  trait: '99',
+  weight: '30',
+  occurrence: '86 in 10000 editions (0.86 %)'
+}
+
+Done in 0.45s.
